@@ -1,0 +1,111 @@
+
+/* ///import-font/// */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ///////////////// */
+
+header {
+    display: flex;
+    max-height: 100vh;
+    width: 100%
+}
+
+/* ///__Left-Bar__/// */
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 25%;
+    height: 100vh;
+    background-color: #F9FBFF;
+    z-index: 1000;
+
+}
+
+.logo {
+    width: 159.41px;
+    height: 86.36px;
+    margin-left: -40px;
+}
+
+.text-content {
+    margin-top: 400px;
+    margin-left: 130px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 70px;
+    /* or 130% */
+    color: #415167;
+}
+
+.color-line {
+    background-color: #C7A17A;
+    color: #F9FBFF;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0 0 0 130px;
+}
+
+/* ///////////////// */
+
+/* ///__Centr-Bar__/// */
+
+
+.centr-bar {
+    display: flex;
+
+    width: 50%;
+    height: 100vh;
+    background-image: url(../img/buro.coffee_1639415739223.jpg);
+    background-size: 75% cover;
+
+}
+
+/* ///////////////// */
+
+/* ///__Right-Bar__/// */
+
+.right-bar {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 100vh;
+    background-color: #415167;
+
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 30px;
+   }
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.menu-globe {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EDF0F5;
+}
+
+.menu {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EDF0F5;
+    margin-left: 57px;
+}
+
+/* ///////////////// */
