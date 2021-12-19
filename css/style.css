@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* ///////////////// */
 
+/* ///__Header__/// */
+
 header {
     display: flex;
     max-height: 100vh;
@@ -15,9 +17,9 @@ header {
 .left-bar {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
-    width: 25%;
+    width: 30%;
     height: 100vh;
     background-color: #F9FBFF;
     z-index: 1000;
@@ -25,14 +27,11 @@ header {
 }
 
 .logo {
-    width: 159.41px;
-    height: 86.36px;
-    margin-left: -40px;
-}
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;}
 
 .text-content {
-    margin-top: 400px;
-    margin-left: 130px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 900;
@@ -40,16 +39,13 @@ header {
     line-height: 70px;
     /* or 130% */
     color: #415167;
+    margin-left: 20px;
 }
 
 .color-line {
     background-color: #C7A17A;
     color: #F9FBFF;
     border-radius: 5px;
-}
-
-p {
-    margin: 0 0 0 130px;
 }
 
 /* ///////////////// */
@@ -59,7 +55,6 @@ p {
 
 .centr-bar {
     display: flex;
-
     width: 50%;
     height: 100vh;
     background-image: url(../img/buro.coffee_1639415739223.jpg);
@@ -74,7 +69,7 @@ p {
 .right-bar {
     display: flex;
     align-items: center;
-    width: 25%;
+    width: 20%;
     height: 100vh;
     background-color: #415167;
 
@@ -106,6 +101,112 @@ ul {
     line-height: 24px;
     color: #EDF0F5;
     margin-left: 57px;
+}
+
+/* ///////////////// */
+
+/* ///__Main__/// */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background: #F9FBFF;
+}
+
+.title {
+    padding-top: 87px;
+}
+
+h4 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    text-align: center;
+    color: #415167;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;
+    /* or 113% */
+    text-align: center;
+    color: #415167;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    text-align: center;
+    color: #415167;
+    margin: 0 auto;
+}
+
+.alt-title {
+    margin-bottom: 10px;
+}
+
+.alternative-coffe_container {
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;  
+    max-width: 1104px;
+    height: 384px;
+    /* background: chocolate; */
+    margin: 0 auto;
+}
+
+.alternative-coffe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alt-icon {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* ///////////////// */
+
+/* ///__Footer__/// */
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #EDF0F5;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+    color: #415167;
+   
 }
 
 /* ///////////////// */
